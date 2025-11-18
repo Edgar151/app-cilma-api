@@ -1,11 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>Clima por Ciudad</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    ndndnd
+
+  <h2>Selecciona una ciudad</h2>
+
+  <!-- Menú desplegable -->
+  <select id="ciudades">
+    <option value="">-- Selecciona --</option>
+    <option value="Mexico City">Ciudad de México</option>
+    <option value="Monterrey">Monterrey</option>
+    <option value="Guadalajara">Guadalajara</option>
+    <option value="Tijuana">Tijuana</option>
+  </select>
+
+  <button id="btnClima">Ver clima</button>
+
+  <h3 id="resultado"></h3>
+
+  <!-- Archivo JS externo -->
+  <script src="script.js"></script>
+
 </body>
 </html>
